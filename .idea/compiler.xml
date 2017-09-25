@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="auth-service" />
+        <module name="invoice-auth-service" />
+        <module name="invoice-service" />
+        <module name="invoice-verify-service" />
+        <module name="kxl-domain" />
+        <module name="kxl-utils" />
+        <module name="rabbitmq-center" />
+        <module name="rabbitmq-client" />
+        <module name="rabbitmq-domain" />
+        <module name="user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="auth-service" target="1.8" />
+      <module name="invoice-auth-service" target="1.8" />
+      <module name="invoice-service" target="1.8" />
+      <module name="invoice-verify-service" target="1.8" />
+      <module name="kxl-domain" target="1.8" />
+      <module name="kxl-server" target="1.8" />
+      <module name="kxl-utils" target="1.8" />
+      <module name="rabbitmq-center" target="1.8" />
+      <module name="rabbitmq-client" target="1.8" />
+      <module name="rabbitmq-domain" target="1.8" />
+      <module name="rabbitmq-service" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
